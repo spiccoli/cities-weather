@@ -4,7 +4,7 @@ const weatherCard = document.querySelector(".card");
 const API_KEY = "a0910910c6dccfcb5e018999757b79c5";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 const GEO_API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo/cities";
-const GEO_API_KEY = "b58102de0a1925e6e0934902c50c07f06469ccf5";
+const GEO_API_KEY = "f7297101c48ba8f587e859f82db1e15a6f0800fe";
 
 // Event listener for form submission
 weatherForm.addEventListener("submit", async event => {
