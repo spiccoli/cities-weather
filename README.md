@@ -1,2 +1,8 @@
 # [https://spiccoli.github.io/citiesWeather/](https://spiccoli.github.io/citiesWeather/) ⛅<br>
-![image](https://github.com/user-attachments/assets/0e96dde1-6859-432e-aa9e-d950f01512f5)
+![image](https://github.com/user-attachments/assets/b5eabcbf-215a-4b40-8183-b916ffaab61f)
+<br>
+If the city is not found a popup like this will appear
+![image](https://github.com/user-attachments/assets/c6fd8fd1-f7d6-44ad-859f-cf9844474f79)
+
+
+
