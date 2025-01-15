@@ -1,3 +1,4 @@
 # [https://spiccoli.github.io/citiesWeather/](https://spiccoli.github.io/citiesWeather/) ⛅<br>
-![image](https://github.com/user-attachments/assets/fbeb7357-71d5-41c8-952c-69506d1035c1)
+![image](https://github.com/user-attachments/assets/8dd5b1cb-1a9b-4d20-8094-da199871e024)
+
 
