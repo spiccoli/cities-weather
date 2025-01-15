@@ -99,7 +99,7 @@ function displayError(message) {
         <p>${message}</p>
     `;
     document.body.appendChild(popup);
-    setTimeout(() => {
+    setTimeout(() => {  
         popup.classList.add("hide");
         setTimeout(() => popup.remove(), 300); // Wait for fade-out animation to finish
     }, 1500);

@@ -131,24 +131,6 @@ p {
     font-weight: bold;
 }
 
-.errorPopup button.closePopup {
-    margin-top: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(255, 105, 135, 1);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    font-family: inherit;
-    transition: all 0.3s ease;
-}
-.errorPopup button.closePopup:hover {
-    background: #fff;
-    color: rgba(255, 105, 135, 1);
-    transform: scale(1.05);
-}
-
 .errorPopup.hide {
     opacity: 0;
     transform: translateX(-50%) translateY(-10px);
