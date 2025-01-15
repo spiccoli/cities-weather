@@ -91,13 +91,16 @@ function getWeatherEmoji(weatherId) {
     return "❓";
 }
 
-// Display error message
 function displayError(message) {
-    const errorDisplay = document.createElement("p");
-    errorDisplay.textContent = message;
-    errorDisplay.classList.add("errorDisplay");
-    card.textContent = "";
-    card.style.display = "flex";
-    card.style.justifyContent = "center";
-    card.appendChild(errorDisplay);
+    if (document.querySelector(".errorPopup")) return;
+    const popup = document.createElement("div");
+    popup.className = "errorPopup";
+    popup.innerHTML = `
+        <p>${message}</p>
+    `;
+    document.body.appendChild(popup);
+    setTimeout(() => {
+        popup.classList.add("hide");
+        setTimeout(() => popup.remove(), 300); // Wait for fade-out animation to finish
+    }, 1500);
 }
